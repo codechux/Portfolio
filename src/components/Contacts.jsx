@@ -73,7 +73,7 @@ const Contacts = () => {
 
       <div className="flex flex-col items-center justify-center w-full mb-2 md:mt-20 lg:mb-3 xl:mb-5 ">
         <p className="text-xs font-light text-[#feed7a] xl:text-sm">
-          © Stolen Design With Permission
+          © Chuxcode
         </p>
       </div>
       <div className="relative"></div>

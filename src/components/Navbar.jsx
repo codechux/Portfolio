@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo1.jpg";
+import logo from "../assets/man.jpeg";
 import { CiMenuFries } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
 import { motion } from "framer-motion";
