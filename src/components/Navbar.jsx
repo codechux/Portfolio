@@ -90,11 +90,11 @@ const Navbar = () => {
               {/* <p className="text-[white]">04.</p> */}
               <p className="text-[white]">Contact</p>
             </a>
-            <a>
+            {/* <a>
               <button className="w-36 h-12 rounded text-center text-[14px] text-[white] border-[0.01em] border-[white] mt-14">
                 Resume
               </button>
-            </a>
+            </a> */}
           </div>
         </motion.div>
       ) : (
@@ -131,14 +131,14 @@ const Navbar = () => {
           <p className="text-[black]">04.</p>
           <p className="ml-2 text-[black]">Contact</p>
         </a>
-        <a>
+        {/* <a>
           <button
             className="w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[black] border-[0.01em] border-[black] xl:text-[15px]
               xl:ml-5"
           >
             Resume
           </button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
