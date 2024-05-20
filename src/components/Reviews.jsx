@@ -15,7 +15,7 @@ const Reviews = () => {
       review:
         "With immaculate ease, Chukwuka has grown, matured, and exceeded whatever expectations are placed, in front of him. He's got the best can do attitude and always in charge of the game’s front-end development because he is the best at it.",
       cardIcon: (
-        <GiSpades className="text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl" />
+        <GiSpades className="text-2xl text-[white] lg:text-3xl xl:text-5xl" />
       ),
     },
     {
@@ -25,7 +25,7 @@ const Reviews = () => {
       review:
         "Ensuring developers adhere precisely to your intended design is a frequent challenge, but this isn't the situation with Chukwuka. He faithfully translates my designs without any deviation. Collaborating with him is effortless due to his meticulous focus on the finer points.",
       cardIcon: (
-        <GiDiamonds className="text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl" />
+        <GiDiamonds className="text-2xl text-[white] lg:text-3xl xl:text-5xl" />
       ),
     },
     {
@@ -35,7 +35,7 @@ const Reviews = () => {
       review:
         "Chuks was the best colleague to work with He is highly responsive, organised and strategic with solving problems. i have learnt a lot from him and i am sure he would do well on any team.",
       cardIcon: (
-        <GiClubs className="text-2xl text-[#feed7a] lg:text-3xl xl:text-5xl" />
+        <GiClubs className="text-2xl text-[white] lg:text-3xl xl:text-5xl" />
       ),
     },
   ];
@@ -48,13 +48,13 @@ const Reviews = () => {
         <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
           04.
         </p>
-        <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
+        <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[white] md:text-[27px] md:font-bold lg:text-[28px]">
           Testimonials
         </p>
         <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
       </div>
       <div className="md:w-[90%] mt-2">
-        <p className="text-sm text-[#feed7a] md:text-base xl:text-lg">
+        <p className="text-sm text-[white] md:text-base xl:text-lg">
           People I&apos;ve worked with have said some nice things.
         </p>
       </div>

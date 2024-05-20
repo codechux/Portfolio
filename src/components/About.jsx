@@ -44,7 +44,7 @@ const About = () => {
           <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
             01.
           </p>
-          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
+          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[black] md:text-[27px] md:font-bold lg:text-[28px]">
             About Me
           </p>
           <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
@@ -56,7 +56,7 @@ const About = () => {
 
       <div className="mt-5 md:w-[60%] md:mt-8 lg:w-[40%] lg:mt-0 lg:ml-10">
         <div className="xl:mb-6">
-          <h1 className="text-[21px] font-bold mb-4 text-[#feed7a] xl:text-[27px]">
+          <h1 className="text-[21px] font-bold mb-4 text-[black] xl:text-[27px]">
             Skills
           </h1>
         </div>
@@ -67,8 +67,8 @@ const About = () => {
                 key={item.index}
                 className="flex items-center justify-start w-[40%] mb-8"
               >
-                <BiSolidRightArrow className="text-[#feed7a] text-[12px]" />
-                <p className="text-[12px] text-[#feed7a] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px] font-peralta">
+                <BiSolidRightArrow className="text-[black] text-[12px]" />
+                <p className="text-[12px] text-[black] ml-2 whitespace-nowrap lg:text-[13px] xl:text-[16px] font-peralta">
                   {item.skill}
                 </p>
               </div>
@@ -79,7 +79,7 @@ const About = () => {
         <a
           href="#"
           download
-          className="text-[13px] font-medium text-[#feed7a] underline xl:mt-6 font-peralta"
+          className="text-[13px] font-medium text-[black] underline xl:mt-6 font-peralta"
         >
           And a whole lot more
         </a>

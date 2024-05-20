@@ -20,10 +20,10 @@ const Contacts = () => {
       className="flex flex-col items-center justify-center w-full px-8 mt-24 md:px-14 md:mt-36 xl:mt-72"
     >
       <div className="flex flex-col items-center justify-start w-full">
-        <p className="text-sm font-light text-[#C4C4C4] lg:text-base xl:text-lg">
+        <p className="text-sm font-light text-[black] lg:text-base xl:text-lg">
           05. What&apos;s next?
         </p>
-        <h1 className="text-4xl font-bold text-[#feed7a] my-5 md:my-5 xl:text-5xl">
+        <h1 className="text-4xl font-bold text-[black] my-5 md:my-5 xl:text-5xl">
           Get In Touch
         </h1>
         <p
@@ -33,7 +33,10 @@ const Contacts = () => {
           Have any questions, need help with an exciting project, or you need an
           awesome developer on your team ?<br />
           send me an{" "}
-          <a className="text-[#feed7a] ml-1" href="#">
+          <a
+            className="text-[blue] ml-1"
+            href="mailto:chuxoguh@gmail.com?subject="
+          >
             Email.
           </a>
         </p>
@@ -42,7 +45,7 @@ const Contacts = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="h-14 w-32 border-[1px] border-[#feed7a] text-[#feed7a] rounded-md mt-8 xl:w-36">
+          <button className="h-14 w-32 border-[1px] border-[black] text-[black] rounded-md mt-8 xl:w-36">
             Say Hello
           </button>
         </a>
@@ -72,9 +75,7 @@ const Contacts = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center w-full mb-2 md:mt-20 lg:mb-3 xl:mb-5 ">
-        <p className="text-xs font-light text-[#feed7a] xl:text-sm">
-          © Chuxcode
-        </p>
+        <p className="text-xs font-light text-[black] xl:text-sm">© Chuxcode</p>
       </div>
       <div className="relative"></div>
       <div className="gradient-01 absolute w-[30%] inset-0 " />

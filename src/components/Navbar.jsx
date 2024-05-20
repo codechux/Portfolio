@@ -33,9 +33,15 @@ const Navbar = () => {
 
         <div>
           {drawer ? (
-            <TfiClose onClick={handleDrawer} className="text-[23px]" />
+            <TfiClose
+              onClick={handleDrawer}
+              className="text-[23px] text-[white]"
+            />
           ) : (
-            <CiMenuFries onClick={handleDrawer} className="text-[24px]" />
+            <CiMenuFries
+              onClick={handleDrawer}
+              className="text-[24px] text-[white]"
+            />
           )}
         </div>
       </div>
@@ -49,7 +55,7 @@ const Navbar = () => {
             delay: 0,
           }}
           initial={{ opacity: 1, scale: 1 }}
-          className="fixed top-0 flex justify-end w-full h-[100vh] z-20 backdrop-blur-sm lg:hidden"
+          className="fixed top-0 flex justify-end w-full h-[100vh] z-20 backdrop-blur-sm lg:hidden text-[white]"
         >
           <div className="flex flex-col items-center justify-center w-[75%] pt-7 bg-[#000000] shadow-2xl shadow-[#323232] md:w-[50%] md:pt-24">
             <a
@@ -57,35 +63,35 @@ const Navbar = () => {
               onClick={handleDrawer}
               className="text-[17px] flex flex-col items-center justify-center w-full mb-4"
             >
-              <p className="text-[#C4C4C4]">01.</p>
-              <p className="text-[#feed7a]">About</p>
+              {/* <p className="text-[white]">01.</p> */}
+              <p className="text-[white]">About</p>
             </a>
             <a
               href="#work"
               onClick={handleDrawer}
               className="text-[17px] flex flex-col items-center justify-center w-full my-4"
             >
-              <p className="text-[#C4C4C4]">02.</p>
-              <p className="text-[#feed7a]">Work</p>
+              {/* <p className="text-[white]">02.</p> */}
+              <p className="text-[white]">Work</p>
             </a>
             <a
               href="#experience"
               onClick={handleDrawer}
               className="text-[17px] flex flex-col items-center justify-center w-full my-4"
             >
-              <p className="text-[#C4C4C4]">03.</p>
-              <p className="text-[#feed7a]">Experience</p>
+              {/* <p className="text-[white]">03.</p> */}
+              <p className="text-[white]">Experience</p>
             </a>
             <a
               href="#contact"
               onClick={handleDrawer}
               className="text-[17px] flex flex-col items-center justify-center w-full mt-4"
             >
-              <p className="text-[#C4C4C4]">04.</p>
-              <p className="text-[#feed7a]">Contact</p>
+              {/* <p className="text-[white]">04.</p> */}
+              <p className="text-[white]">Contact</p>
             </a>
             <a>
-              <button className="w-36 h-12 rounded text-center text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] mt-14">
+              <button className="w-36 h-12 rounded text-center text-[14px] text-[white] border-[0.01em] border-[white] mt-14">
                 Resume
               </button>
             </a>
@@ -101,33 +107,33 @@ const Navbar = () => {
           href="#about"
           className="text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5"
         >
-          <p className="text-[#C4C4C4]">01.</p>
-          <p className="ml-2 text-[#feed7a]">About</p>
+          <p className="text-[black]">01.</p>
+          <p className="ml-2 text-[black]">About</p>
         </a>
         <a
           href="#work"
           className="text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5"
         >
-          <p className="text-[#C4C4C4]">02.</p>
-          <p className="ml-2 text-[#feed7a]">Work</p>
+          <p className="text-[black]">02.</p>
+          <p className="ml-2 text-[black]">Work</p>
         </a>
         <a
           href="#experience"
           className="text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5"
         >
-          <p className="text-[#C4C4C4]">03.</p>
-          <p className="ml-2 text-[#feed7a]">Experience</p>
+          <p className="text-[black]">03.</p>
+          <p className="ml-2 text-[black]">Experience</p>
         </a>
         <a
           href="#contact"
           className="text-[15px] flex items-center justify-center mx-4 xl:text-[16px] xl:mx-5"
         >
-          <p className="text-[#C4C4C4]">04.</p>
-          <p className="ml-2 text-[#feed7a]">Contact</p>
+          <p className="text-[black]">04.</p>
+          <p className="ml-2 text-[black]">Contact</p>
         </a>
         <a>
           <button
-            className="w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[#C4C4C4] border-[0.01em] border-[#feed7a] xl:text-[15px]
+            className="w-28 h-11 rounded-md text-center ml-4 text-[14px] text-[black] border-[0.01em] border-[black] xl:text-[15px]
               xl:ml-5"
           >
             Resume

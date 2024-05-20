@@ -70,13 +70,13 @@ const Projects = () => {
           <p className="text-[15px] mt-1 md:mt-2 md:text-[19px] lg:text-[20px] xl:mt-1">
             02.
           </p>
-          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[#feed7a] md:text-[27px] md:font-bold lg:text-[28px]">
+          <p className="text-[23px] font-medium ml-2 whitespace-nowrap text-[black] md:text-[27px] md:font-bold lg:text-[28px]">
             My Projects
           </p>
           <hr className="border-[0.01em] border-[#3d3b4b] w-full ml-2" />
         </div>
         <div className="md:w-[90%] mt-5">
-          <p className="text-sm text-[#feed7a] md:text-base xl:text-lg">
+          <p className="text-sm text-[black] md:text-base xl:text-lg">
             Here are few projects I&apos;ve worked on
           </p>
         </div>
@@ -134,7 +134,7 @@ const Projects = () => {
       </div>
 
       <div className="flex items-center justify-center w-full mt-3">
-        <p className="text-sm text-[#feed7a] md:text-base xl:text-lg">
+        <p className="text-sm text-[black] md:text-base xl:text-lg">
           want to see more?
         </p>
         <a
